@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders correctly when it has cards 1`] = `
+<div>
+  <div>
+    <form
+      onKeyDown={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <div>
+        <div>
+          <label>
+            Gift Card Number
+          </label>
+          <div>
+            <span
+              style={
+                Object {
+                  "--iconsAfter": 0,
+                  "--iconsBefore": 0,
+                }
+              }
+            >
+              <span>
+                <input
+                  disabled={false}
+                  name="card"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder="Enter card number"
+                  value=""
+                />
+              </span>
+              <span />
+              <span />
+            </span>
+            <p />
+          </div>
+        </div>
+        <button
+          disabled={false}
+          onClick={[MockFunction]}
+          type="button"
+        >
+          <span>
+            Apply
+          </span>
+        </button>
+        <button
+          disabled={false}
+          onClick={[MockFunction]}
+        >
+          Check balance
+        </button>
+      </div>
+    </form>
+  </div>
+  <div>
+    <div>
+      <span>
+        unit test code 1
+      </span>
+      <span>
+        Balance: 
+        <span>
+          $
+        </span>
+        <span>
+          99
+        </span>
+        <span>
+          .
+        </span>
+        <span>
+          00
+        </span>
+      </span>
+    </div>
+    <button
+      disabled={false}
+      onClick={[Function]}
+    >
+      Remove
+    </button>
+    <div>
+      <span>
+        unit test code 2
+      </span>
+      <span>
+        Balance: 
+        <span>
+          $
+        </span>
+        <span>
+          99
+        </span>
+        <span>
+          .
+        </span>
+        <span>
+          00
+        </span>
+      </span>
+    </div>
+    <button
+      disabled={false}
+      onClick={[Function]}
+    >
+      Remove
+    </button>
+  </div>
+</div>
+`;
+
+exports[`it renders correctly with no cards 1`] = `
+<div>
+  <div>
+    <form
+      onKeyDown={[Function]}
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <div>
+        <div>
+          <label>
+            Gift Card Number
+          </label>
+          <div>
+            <span
+              style={
+                Object {
+                  "--iconsAfter": 0,
+                  "--iconsBefore": 0,
+                }
+              }
+            >
+              <span>
+                <input
+                  disabled={false}
+                  name="card"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder="Enter card number"
+                  value=""
+                />
+              </span>
+              <span />
+              <span />
+            </span>
+            <p />
+          </div>
+        </div>
+        <button
+          disabled={false}
+          onClick={[MockFunction]}
+          type="button"
+        >
+          <span>
+            Apply
+          </span>
+        </button>
+        <button
+          disabled={false}
+          onClick={[MockFunction]}
+        >
+          Check balance
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
